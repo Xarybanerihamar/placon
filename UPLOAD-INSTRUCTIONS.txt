@@ -1,17 +1,16 @@
-PLACON GITHUB PAGES PREVIEW - FOOTER LOGO FIX
+PLACON PREMIUM WEBSITE PREVIEW
 
-The previous version still referenced logo-white.svg in the footer.
-This version fixes that mistake.
+1. Open the `placon` GitHub repository.
+2. Upload ALL files from this ZIP directly to the repository root.
+3. Choose to replace existing files when GitHub asks.
+4. Do NOT add a CNAME file yet.
+5. Settings → Pages:
+   Branch: main
+   Folder: /(root)
+6. Wait 1–2 minutes.
+7. Open your existing GitHub Pages preview URL.
+8. Hard refresh:
+   Windows: Ctrl + Shift + R
+   Mac: Command + Shift + R
 
-Fastest update:
-1. Replace index.html in GitHub.
-2. Keep logo.png in the repository.
-3. styles.css from this package can also replace the current one.
-
-You can delete logo-white.svg; it is no longer used.
-
-Do NOT add CNAME yet.
-
-After GitHub Pages deploys, hard refresh:
-Windows: Ctrl + Shift + R
-Mac: Command + Shift + R
+This package intentionally keeps the custom domain disconnected until you approve the website.

@@ -1,17 +1,29 @@
-# Placon Corporation website – first draft
+# Placon Corporation — Premium Website Preview
 
-Static website prepared for GitHub Pages and `placoncorp.com`.
+This version is built as a static GitHub Pages site and is ready to preview at your normal GitHub Pages URL.
 
-## Publish on GitHub Pages
-1. Create a new GitHub repository.
-2. Upload everything in this folder to the repository root.
-3. In Settings → Pages, deploy from the `main` branch / root.
-4. Add `placoncorp.com` as the custom domain. The included `CNAME` file already contains it.
-5. Update your domain DNS to the GitHub Pages records when ready.
+## Upload
+Upload the files in this folder directly to the ROOT of your `placon` repository.
+
+Important:
+- Keep `index.html`, `styles.css`, `app.js`, `logo.png`, and `favicon.svg` together in the repository root.
+- Do not add a `CNAME` yet. This preview intentionally does not force `placoncorp.com`.
+- GitHub Pages should deploy from `main` → `/(root)`.
+
+## Features in this version
+- Responsive premium homepage
+- Sticky navigation and mobile menu
+- Food / Medical / Retail / Custom market cards
+- Interactive recycled-material estimator
+- Capabilities and process sections
+- FAQ accordion
+- Project form that prepares an email (works on static GitHub Pages)
+- Scroll-in animations
+- Updated footer using the approved logo
+- No backend or framework required
 
 ## Before final launch
-- Confirm final logo.
-- Confirm whether the email address should remain `info@placon.com` or move to the new domain.
-- Replace legacy `placon.com` image URLs with local copies so the new site is fully independent.
-- Connect the contact form to a form endpoint/service.
-- Add any product catalog/download pages you want to preserve from the current site.
+- Confirm the final destination email.
+- Decide which existing Placon product pages/resources should be rebuilt.
+- Replace any temporary legacy-image URLs with permanent local images if desired.
+- Add the custom domain only after the site is approved.
