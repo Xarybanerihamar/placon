@@ -1,26 +1,21 @@
-UPLOAD THESE ITEMS DIRECTLY TO THE ROOT OF YOUR GITHUB REPOSITORY:
+PLACON GITHUB PAGES PREVIEW - FLAT FILE VERSION
 
-.nojekyll
-CNAME
+Upload these files directly to the ROOT of the `placon` repository:
+
 index.html
-assets/   <-- upload this entire folder and all files inside it
+styles.css
+app.js
+logo.png
+logo-white.svg
+favicon.svg
+.nojekyll
 
-Your repository should look exactly like this:
-/
-  .nojekyll
-  CNAME
-  index.html
-  assets/
-    app.js
-    favicon.svg
-    logo.png
-    logo-white.svg
-    styles.css
+IMPORTANT:
+- Do NOT create an assets folder for this version.
+- Do NOT add a CNAME file yet.
+- Delete the accidental `download` file from the repository if it is still there.
+- GitHub Pages should deploy from branch: main, folder: /(root)
 
-Do NOT upload only index.html.
-Do NOT put these inside another placoncorp-site folder.
-GitHub file/folder names are case-sensitive.
-
-After uploading, wait 1-2 minutes and hard refresh the published site:
-Windows: Ctrl+F5 or Ctrl+Shift+R
-Mac: Command+Shift+R
+After uploading, wait 1-2 minutes and hard refresh:
+Windows: Ctrl + Shift + R
+Mac: Command + Shift + R
