@@ -1,21 +1,17 @@
-PLACON GITHUB PAGES PREVIEW - FLAT FILE VERSION
+PLACON GITHUB PAGES PREVIEW - VERSION 2
 
-Upload these files directly to the ROOT of the `placon` repository:
+This update fixes the footer logo.
 
-index.html
-styles.css
-app.js
-logo.png
-logo-white.svg
-favicon.svg
-.nojekyll
+Replace these files in the ROOT of your `placon` GitHub repository:
+- index.html
+- styles.css
 
-IMPORTANT:
-- Do NOT create an assets folder for this version.
-- Do NOT add a CNAME file yet.
-- Delete the accidental `download` file from the repository if it is still there.
-- GitHub Pages should deploy from branch: main, folder: /(root)
+The existing logo.png should remain in the repository.
 
-After uploading, wait 1-2 minutes and hard refresh:
+You may also upload all files from this ZIP and choose to replace duplicates.
+
+Do NOT add a CNAME file yet.
+
+After committing the changes, wait 1-2 minutes and hard refresh:
 Windows: Ctrl + Shift + R
 Mac: Command + Shift + R
