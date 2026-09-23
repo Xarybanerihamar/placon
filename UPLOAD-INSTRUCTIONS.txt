@@ -1,0 +1,26 @@
+UPLOAD THESE ITEMS DIRECTLY TO THE ROOT OF YOUR GITHUB REPOSITORY:
+
+.nojekyll
+CNAME
+index.html
+assets/   <-- upload this entire folder and all files inside it
+
+Your repository should look exactly like this:
+/
+  .nojekyll
+  CNAME
+  index.html
+  assets/
+    app.js
+    favicon.svg
+    logo.png
+    logo-white.svg
+    styles.css
+
+Do NOT upload only index.html.
+Do NOT put these inside another placoncorp-site folder.
+GitHub file/folder names are case-sensitive.
+
+After uploading, wait 1-2 minutes and hard refresh the published site:
+Windows: Ctrl+F5 or Ctrl+Shift+R
+Mac: Command+Shift+R
