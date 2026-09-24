@@ -115,6 +115,6 @@ form?.addEventListener('submit', event => {
 
   if (success) success.style.display = 'block';
   setTimeout(() => {
-    window.location.href = `mailto:info@placon.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:info@placoncorp.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   }, 220);
 });

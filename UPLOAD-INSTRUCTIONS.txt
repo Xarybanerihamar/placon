@@ -1,16 +1,21 @@
-PLACON PREMIUM WEBSITE PREVIEW
+PLACONCORP.COM — PRODUCTION PACKAGE
 
-1. Open the `placon` GitHub repository.
-2. Upload ALL files from this ZIP directly to the repository root.
-3. Choose to replace existing files when GitHub asks.
-4. Do NOT add a CNAME file yet.
-5. Settings → Pages:
+Upload ALL files in this ZIP directly to the ROOT of your `placon` repository.
+
+IMPORTANT
+1. Keep the included file named exactly: CNAME
+2. Its only content is:
+   placoncorp.com
+3. GitHub Pages:
+   Source: Deploy from a branch
    Branch: main
    Folder: /(root)
-6. Wait 1–2 minutes.
-7. Open your existing GitHub Pages preview URL.
-8. Hard refresh:
-   Windows: Ctrl + Shift + R
-   Mac: Command + Shift + R
 
-This package intentionally keeps the custom domain disconnected until you approve the website.
+CONTACT DETAILS UPDATED
+Email: info@placoncorp.com
+Phone: 608-544-9769
+
+The red GitHub DNS/HTTPS check is not caused by HTML, CSS, or JavaScript.
+The CNAME file is required for branch-based custom-domain publishing, while GoDaddy DNS must also resolve to GitHub Pages.
+
+Do not delete the CNAME file after uploading this package.
